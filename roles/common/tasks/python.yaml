@@ -1,0 +1,13 @@
+- name: install python packages
+  ansible.builtin.package:
+    name: "{{item}}"
+    state: present
+  loop:
+  - python36
+  - gcc
+  - python3-devel
+
+- name: install dependence
+  ansible.builtin.command: pip3.6 install -r requirements.txt
+  args:
+    chdir: /app

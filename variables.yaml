@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.pavanaws.online
+REDIS_HOST: redis.pavanaws.online
+CATALOGUE_HOST: catalogue.pavanaws.online
+USER_HOST: user.pavanaws.online
+CART_HOST: cart.pavanaws.online
+SHIPPING_HOST: shipping.pavanaws.online
+PAYMENT_HOST: payment.pavanaws.online
+MYSQL_HOST: mysql.pavanaws.online
+RABBITMQ_HOST: rabbitmq.pavanaws.online
+DISPATCH_HOST: dispatch.pavanaws.online
